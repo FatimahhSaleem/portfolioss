@@ -1,0 +1,426 @@
+*{
+    color: white;
+}
+body{
+   margin: 0%;
+    padding: 0%;
+   
+
+   
+}
+.wrapper{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background-color:#010c0e;
+    height: 50px;
+   
+    
+}
+ul li{
+    display: inline;
+    padding: 12px;
+    
+    
+}
+ul {
+    display: flex;
+    justify-content: end;
+
+    
+}
+ul li a{
+    color: aliceblue;
+    list-style:none;
+    text-decoration: none;
+
+}
+a:hover{
+    color: #CF7C33;
+}
+.container{
+    display: flex;
+    background-color: #010F12;
+    
+
+    
+    
+}
+.name{
+    margin: 60px;
+    margin-left:200px ;
+    line-height: 24px;
+}
+.profile img{
+    margin-left: 200px;
+    width: 400px;
+
+    height: 300px;
+}
+p{
+    font-size: larger;
+}
+h1{
+    font-size:400%;
+}
+.button1{
+    text-decoration: none;
+    border: 1px solid hidden;
+    background-color: #CF7C33;
+    border-radius: 24px;
+    height: 33px;
+    width: 120px;
+    font-size: medium;
+}
+h2{
+    font-size: 25px;
+    color:#CF7C33;
+}
+p{
+    font-size: small;
+}
+.pic img{
+    height: 500px;
+    width: 450px;
+    border: 6px solid hwb(192 1% 89%);
+    box-shadow: 0px 4px 19px 0px rgba(0,0,0,0.86);
+    
+}
+
+
+
+
+.starfull {
+    color: #c87b1e; /* Color of the star */
+    margin-right: 1.2px; /* Adjust spacing between stars */
+    width:2px;
+}
+.starhalf {
+    /* Style for half-filled stars */
+    position: relative;
+    display: inline-block;
+    
+}
+
+.starhalf::before {
+    content: '\2605'; /* Unicode character for solid star */
+    position: absolute;
+    width: 50%;
+    color: #c87b1e ;
+    overflow: hidden;
+}
+
+.starempty {
+    /* Style for empty stars */
+    color: #ccc; /* Color for empty stars */
+}
+h4{
+    display: block;
+}
+
+
+
+
+
+
+.skills{
+    background-color: #062830;
+    display:flex;
+    padding: 30px;
+    width: 500px; 
+    justify-content: space-between;
+    line-height-step: 10px;
+   
+    
+}
+.aboutme{
+    background-color:  #02171c;
+    display: flex;
+    padding: 50px;
+    padding-left: 100px;
+    justify-content: space-between;
+    
+}
+.rating {
+    font-size: 18px; /* Adjust the size of the stars*/
+    /* padding: 15px; */
+} 
+#about{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    display: block;
+    
+}
+.button2{
+    margin:12px;
+    text-decoration: none;
+    border: 1px solid hidden;
+    background-color: #CF7C33;
+    border-radius: 24px;
+    height: 33px;
+    width: 120px;
+    font-size: medium;
+}
+#services{
+    background-color:#041a20;
+    padding-top:1px ;
+    padding: 20px;
+    padding-left:100px ;
+    height: fit-content;
+
+    
+
+}
+
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 10px;
+    
+    
+}
+.insideservice{
+    margin: 40px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 250px;
+    background-color: #062830;
+    border: 1px solid hidden;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-shadow: 0px 4px 19px 0px rgba(0,0,0,0.86);
+        
+    
+}
+.insideservice i{
+    font-size: 25px;
+    color:#CF7C33;
+}
+.insideservice p{
+    color: grey;    
+}
+#resume{
+    padding-top: 1px;
+    background-color: #051e24;
+
+}
+#resume h5{
+    padding-left: 600px;
+    font-size: medium;
+    color: #CF7C33;
+    
+}
+.contain{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 50px;
+    
+}
+.goal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    padding-left: 80px;
+
+}
+.goal h2,.experience h3{
+    color: white;
+
+}
+.goal h3,.experience p{
+    color: grey;
+}
+.experience{
+
+    padding-left: 100px;
+    
+}
+span{
+    font-size: x-large;
+}
+.experience h3,.experience p{
+    padding-left: 62px;
+    
+    
+    
+}
+
+
+
+
+.experience{
+    display:flex;
+
+}
+.icon{
+
+    padding-left: 20px; 
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid #c87b1e;
+    height: 90%;
+    width: 2%;
+    overflow: visible;
+    margin-top: 1rem;
+    
+}
+.icon i{
+    padding-bottom: 80px;
+
+    
+    color:#CF7C33;
+}
+.education-item{
+    padding-bottom: 4px;
+
+}
+
+#portfolio{
+    background-color: #02171C;
+
+    padding-top: 1px;
+    height: 100vh;
+    
+    
+}
+#portfolio h5{
+    padding-left: 600px;
+    color: #CF7C33;
+   
+}
+
+.outproject{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+
+}
+.project{
+    
+    border:4px solid #CF7C33;
+    width: 300px;
+    padding: left 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    padding-bottom: 2px;
+}
+
+.project img{
+    border: 1px solid hidden;
+    border-radius: 25%;
+    width: 200px;
+    height: 200px;
+}
+.project h6{
+    font-size: 14px;
+    margin-right: 200px;
+    padding-top: 12px;
+    color: #CF7C33;
+}
+.project p{
+    color: grey;
+}
+.button3{
+    background-color: #CF7C33;
+    display: flex;
+    margin-left: 200px;
+    padding: 4px;
+    margin-bottom: 10px ;
+}
+#contact{
+    background-color:  #021418;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 400px;
+}
+#contact h2{
+    padding-left: 600px;
+    
+}
+.incontact{
+    margin-left: 300px;
+    padding: 10px;
+    width: 700px;
+    height:200px;
+    border: 2px solid hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.incontact input{
+    margin-bottom: 20px;
+    width: 40%;
+
+}
+.submit{
+    margin: 30px;
+    background-color: #CF7C33;
+    color:#052127;
+    font-weight:bold ;
+    border: 1px solid #052127;
+    border-radius: 8px;
+}
+.icons a{
+    text-decoration: none;
+}
+.icons i{
+    
+    padding-right:20px;
+    font-size: 29px;
+    color: #CF7C33; /* Change the icon color */
+    cursor: pointer; /* Add a pointer cursor for interaction */
+    
+}
+footer{
+    padding: 8px;
+    background-color:#010F12;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.button1:hover, .button2:hover, .button3:hover,.submit:hover{
+    background-color: #021418;
+    color: #CF7C33;
+    padding: 4px;
+    font-size: medium;
+}
+.icons i:hover{
+    color:#062830;
+    font-size: xx-large;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
